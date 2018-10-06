@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+
+#landing {
+    position: fixed;
+    right: 0;
+    top: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    background-image: 
+    linear-gradient(
+      rgba(167, 151, 151, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+}
+
+#wrap {
+  /* Absolute centering: */
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  margin: auto;
+
+  /* It needs a height and a width: */
+  height: 200px;
+  width: 500px;
+}
+
+#wrap h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  font-size: 4rem;
+  transform: translate(-50%, -50%);
+}
+
+#wrap p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+  font: 18px Monaco, Mono-Space;
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 5%;
+}
